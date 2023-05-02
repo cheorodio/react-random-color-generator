@@ -12,7 +12,7 @@ export default function App() {
       <h1>Random Color Generator</h1>
       <button
         onClick={() =>
-          setRandomColor(color({ hue: hue, lightness: lightness }))
+          setRandomColor(color({ hue: hue, luminosity: lightness }))
         }
         className="btn"
       >
@@ -21,12 +21,15 @@ export default function App() {
 
       <div className="color-container">
         <div style={{ backgroundColor: randomColor }} className="color" />
-        <p className="color-hex">Generated Color: {randomColor}</p>
+        <div className="color-hex">
+          Generated Color <br />
+          {randomColor}
+        </div>
       </div>
 
       <p className="optional-title">
         Optional <br />
-        Please enter hue and lightness to get your own random color
+        Please enter hue and/or lightness to get your own random color
       </p>
       <form className="generate-color">
         <div>
@@ -41,7 +44,7 @@ export default function App() {
           <input
             placeholder="Type either light or dark"
             onChange={(e) => {
-              setLightness(e.currentTarget.value.toLowerCase());
+              setLightness(e.currentTarget.value);
             }}
           />
         </div>

@@ -25,7 +25,6 @@ h1 {
   text-align: center;
   font-size: 3rem;
   letter-spacing: 1px;
-  padding-bottom: 2rem;
   margin-bottom: 1rem;
   border-bottom: 0.5px solid #137dad;
 }
@@ -79,14 +78,14 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #ffff;
-  width: 280px;
+  width: 180px;
   border-radius: 10px;
 }
 
 .optional-title {
   text-align: center;
   border-top: 0.5px solid #137dad;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
 }
 
 .generate-color {
