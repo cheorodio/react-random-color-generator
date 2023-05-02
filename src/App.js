@@ -18,7 +18,6 @@ export default function App() {
       >
         Generate
       </button>
-
       <div className="color-container">
         <div style={{ backgroundColor: randomColor }} className="color" />
         <div className="color-hex">
@@ -26,7 +25,6 @@ export default function App() {
           {randomColor}
         </div>
       </div>
-
       <p className="optional-title">
         Optional <br />
         Please enter hue and/or lightness to get your own random color
