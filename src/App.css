@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #c8f7ff;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+h1 {
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  color: #074968;
+  width: 500px;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.5px solid #137dad;
+}
+
+/* BUTTON */
+.btn {
+  height: 50px;
+  width: 200px;
+  background-color: #137dad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #137dad;
+  border: 2px solid #137dad;
+}
+
+.btn:active {
+  transform: translate(0, 5px);
+}
+
+.color-container {
+  height: 350px;
+  width: 500px;
+  background-color: #f4fafa;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.color {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.color-hex {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffff;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.optional-title {
+  text-align: center;
+  border-top: 0.5px solid #137dad;
+  padding-top: 2rem;
+}
+
+.generate-color {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.generate-color input {
+  width: 215px;
+  height: 40px;
+  border: 0.5px solid #137dad;
+  outline: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  color: #074968;
+}
+
+.reset-btn {
+  padding: 0.5rem;
+  width: 50px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 0.5px solid #137dad;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #137dad;
+  color: #fff;
+}
