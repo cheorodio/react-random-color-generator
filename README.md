@@ -7,7 +7,7 @@ This is an upLeveled bootcamp project that challenges me to design and develop a
 Access my site at <netlify name here>
 
 ## Screenshot 📷
-<img width="500" alt="project-screenshot" src="https://user-images.githubusercontent.com/121162907/235768580-0a26e0ec-2b94-4303-9365-bdb30ad64e94.png">
+<img width="800" alt="Screenshot 2023-05-03 at 19 19 54" src="https://user-images.githubusercontent.com/121162907/235992350-adb08d00-0430-4a5c-866c-24e70dda3214.png">
 
 ## Technologies ⚛️
 I used React to develop this project
