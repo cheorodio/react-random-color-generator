@@ -42,20 +42,25 @@ export default function App() {
           <input
             placeholder="Type either light or dark"
             onChange={(e) => {
-              setLightness(e.currentTarget.value);
+              setLightness(e.currentTarget.value.toLowerCase());
             }}
           />
         </div>
-        <button
-          className="reset-btn"
-          onClick={() => {
-            setHue('');
-            setLightness('');
-            setRandomColor('');
-          }}
-        >
-          reset
-        </button>
+
+        {hue === '' && lightness === '' ? (
+          ''
+        ) : (
+          <button
+            className="reset-btn"
+            onClick={() => {
+              setHue('Type a color name');
+              setLightness('Type either light or dark');
+              setRandomColor('');
+            }}
+          >
+            reset
+          </button>
+        )}
       </form>
     </div>
   );
