@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# React.js Random Color Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project 📚
+This is an upLeveled bootcamp project that challenges me to design and develop a random color generator web application using React. This application will show a random color when the generate button is clicked. In addition, a user can type a hue and/or lightness in the input fields to generate their own random color.
 
-## Available Scripts
+## Demo link 🔗
+Access my site at <netlify name here>
 
-In the project directory, you can run:
+## Screenshot 📷
+<img width="500" alt="project-screenshot" src="https://user-images.githubusercontent.com/121162907/235768580-0a26e0ec-2b94-4303-9365-bdb30ad64e94.png">
 
-### `npm start`
+## Technologies ⚛️
+I used React to develop this project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup 💻
+- Download or clone the repository
+- Run `pnpm start`
+  - This runs the app in the development mode.
+  - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - The page will reload when you make changes.
+  
+## Approach 🚶🏻‍♀️
+First, I created a todo list to organise my way of tackling this project. The todo list as follows:
+- [x] Design prototype on Figma
+- [x] Make project skeleton on JSX, include the following:
+  - [x] Title
+  - [x] Button to generate the color
+  - [x] Div box for the color with a text box inside for the HEX code and call this `Generated Color: <HEX code>`
+  - [x] Input fields for both hue and lightness
+  - [x] Button to reset the input fields
+- [x] Add library to generate random color
+- [x] useStates for random color, hue and luminosity
+- [x] function for the button to work for when a user clicks on it
+- [x] function for the color container box so it changes its color every click of the button, same for the text box of HEX color
+- [x] Input fields should have a function that accept hue and luminosity
+- [x] Create a function for reset button to return to initial state when clicked
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits 📝
+This is the first React project that I did at [upLeveled](https://upleveled.io/) bootcamp as part of the Spring '23 cohort.
