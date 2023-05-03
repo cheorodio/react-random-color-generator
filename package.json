@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@testing-library/user-event": "^13.2.1",
-    "@upleveled/react-scripts": "5.0.4",
+    "@upleveled/react-scripts": "5.0.5",
     "randomcolor": "^0.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
