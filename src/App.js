@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Random Color Generator</h1>
+      <div className="title">Random Color Generator</div>
       <button
         onClick={() =>
           setRandomColor(color({ hue: hue, luminosity: lightness }))
