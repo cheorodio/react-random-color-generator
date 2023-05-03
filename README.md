@@ -4,7 +4,7 @@
 This is an upLeveled bootcamp project that challenges me to design and develop a random color generator web application using React. This application will show a random color when the generate button is clicked. In addition, a user can type a hue and/or lightness in the input fields to generate their own random color.
 
 ## Demo link 🔗
-Access my site at <netlify name here>
+Access my site at [Random Color Generator](https://melodious-capybara-c916c4.netlify.app/)
 
 ## Screenshot 📷
 <img width="800" alt="Screenshot 2023-05-03 at 19 19 54" src="https://user-images.githubusercontent.com/121162907/235992350-adb08d00-0430-4a5c-866c-24e70dda3214.png">
