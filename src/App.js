@@ -20,10 +20,7 @@ export default function App() {
       </button>
       <div className="color-container">
         <div style={{ backgroundColor: randomColor }} className="color" />
-        <div className="color-hex">
-          Generated Color <br />
-          {randomColor}
-        </div>
+        <div className="color-hex">Generated Color: {randomColor}</div>
       </div>
       <p className="optional-title">
         Optional <br />
