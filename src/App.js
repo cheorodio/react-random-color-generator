@@ -19,8 +19,9 @@ export default function App() {
         Generate
       </button>
       <div className="color-container">
-        <div style={{ backgroundColor: randomColor }} className="color" />
-        <div className="color-hex">Generated Color: {randomColor}</div>
+        <div style={{ backgroundColor: randomColor }} className="color">
+          Generated Color: {randomColor}
+        </div>
       </div>
       <p className="optional-title">
         Optional <br />

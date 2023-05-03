@@ -69,17 +69,9 @@
   height: 100%;
   width: 100%;
   border-radius: 5px;
-}
-
-.color-hex {
-  font-size: 1.2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffff;
-  width: 180px;
-  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .optional-title {
